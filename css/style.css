@@ -1,0 +1,60 @@
+/*1rem = 10pxにデフォルト設定*/
+html{
+    font-size: 62.5%;
+}
+/*メインタイトルの装飾部分*/
+h1.title{
+    background-color: midnightblue;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/*文字１の時、上下の間隔0.5の設定*/
+p{
+    line-height: 1;
+    text-align: center;/*中央配置*/
+}
+.name{
+    text-align: right;
+}
+a:link{
+    color: green;/*リンク文字色*/
+}
+a:visited{
+    color: grey;/*訪問済みのリンク文字色*/
+}
+a:hover{
+    color: silver;/*ホバー時のリンク文字色*/
+}
+
+/*画像title.pngの中央配置*/
+.ginga{
+    text-align: center;
+}
+.synopsis{
+    width: 860px;/*画像の幅にあわせて文章を収める*/
+    margin: 0 auto;/*中央配置*/
+}
+.copy{
+    text-align: center;/*コピーライトテキストを中央配置*/
+}
+
+.books{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    background-color: lightgrey;
+    padding: 10px;
+    margin-right: 10px;
+}
+hr{
+    border-top: 2px dashed darkblue;/*水平線の太さ、形状、色*/
+    
+}
