@@ -5,5 +5,4 @@
 2.任意の場所で解凍する<br>
 3.解凍したら、フォルダ「GalaxyRailroadNight」ごと、任意の場所に出す<br>
 4.フォルダ「GalaxyRailroadNight」の中にある、ファイル「index.html」を任意のブラウザで開く<br>　　
-### その他
-- sample_page.pngは、ブラウザで任意の縮尺で表示された時のキャプチャです
+
